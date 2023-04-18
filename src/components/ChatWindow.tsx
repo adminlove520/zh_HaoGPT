@@ -258,7 +258,7 @@ const DonationMessage = () => {
         <Button
           className="sm:text m-0 rounded-full text-sm "
           onClick={() =>
-            void router.push("http://www.nxhope.com.cn/")
+            void router.push("https://github.com/adminlove520/zh_HopesoftGPT")
           }
         >
           Support now 🚀

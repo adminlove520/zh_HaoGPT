@@ -27,7 +27,7 @@ export default function HelpDialog({
             <li>与网站和人员的互动 👨‍👩‍👦</li>
           </ul>
           <br />
-          <p className="mt-2">关注动态:</p>
+          <p className="mt-2">感谢使用~</p>
         </div>
         {/* <div className="mt-4 flex w-full items-center justify-center gap-5">
           <div
