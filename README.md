@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://jinfengjia.oss-cn-beijing.aliyuncs.com/uploadFiles/uploadImgs/data/banner.png" height="300"/>
+  <img src="https://jinfengjia.oss-cn-beijing.aliyuncs.com/uploadFiles/uploadImgs/data/HAO/banner.png" height="300"/>
 </p>
 <p align="center">
   <em>🤖 组装，配置和部署自主的 AI 代理（只需浏览器） 🤖 </em>
