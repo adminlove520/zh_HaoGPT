@@ -156,11 +156,11 @@ const Home: NextPage = () => {
                   </PopIn>
                 </span>
               </div>
-              <div className="mt-1 text-center font-mono text-[0.7em] font-bold text-white">
+              {/* <div className="mt-1 text-center font-mono text-[0.7em] font-bold text-white">
                 <p>
                 在浏览器中组装、配置和部署自主人工智能代理.
                 </p>
-              </div>
+              </div> */}
             </div>
 
             <Expand className="flex w-full flex-row">
