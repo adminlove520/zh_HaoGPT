@@ -243,7 +243,7 @@ const ChatMessage = ({ message }: { message: Message }) => {
     </div>
   );
 };
-
+//修改
 // const DonationMessage = () => {
 //   const router = useRouter();
 
