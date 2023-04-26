@@ -76,11 +76,10 @@ const ChatWindow = ({ messages, children, className }: ChatWindowProps) => {
         {children}
 
         {messages.length === 0 && (
-          
-        // 移除support
+          <>
             {/* <Expand delay={0.7} type="spring">
-              <DonationMessage /> */}
-            </Expand>
+              <DonationMessage />
+            </Expand> */}
             <Expand delay={0.8} type="spring">
               <ChatMessage
                 message={{
@@ -245,27 +244,27 @@ const ChatMessage = ({ message }: { message: Message }) => {
   );
 };
 // const DonationMessage = () => {
- // const router = useRouter();
+//   const router = useRouter();
 
-  // return (
-  //   <div className="mx-2 my-1 flex flex-col gap-2 rounded-lg border-[2px] border-white/10 bg-blue-500/20 p-1 font-mono hover:border-[#1E88E5]/40 sm:mx-4 sm:flex-row sm:p-3 sm:text-center sm:text-base">
-  //     <div className="max-w-none flex-grow">
-  //       💝️ 帮助支持HaoGPT的发展. 💝
-  //       <br />
-  //       请考虑赞助GitHub上的项目.
-  //     </div>
-  //     <div className="flex items-center justify-center">
-  //       <Button
-  //         className="sm:text m-0 rounded-full text-sm "
-  //         onClick={() =>
-  //           void router.push("https://github.com/adminlove520/zh_HopesoftGPT")
-  //         }
-  //       >
-  //         Support now 🚀
-  //       </Button>
-  //     </div>
-  //   </div>
-  // );
+//   return (
+//     <div className="mx-2 my-1 flex flex-col gap-2 rounded-lg border-[2px] border-white/10 bg-blue-500/20 p-1 font-mono hover:border-[#1E88E5]/40 sm:mx-4 sm:flex-row sm:p-3 sm:text-center sm:text-base">
+//       <div className="max-w-none flex-grow">
+//         💝️ 帮助支持HaoGPT的发展. 💝
+//         <br />
+//         请考虑赞助GitHub上的项目.
+//       </div>
+//       <div className="flex items-center justify-center">
+//         <Button
+//           className="sm:text m-0 rounded-full text-sm "
+//           onClick={() =>
+//             void router.push("https://github.com/adminlove520/zh_HopesoftGPT")
+//           }
+//         >
+//           Support now 🚀
+//         </Button>
+//       </div>
+//     </div>
+//   );
 // };
 
 const getMessageIcon = (message: Message) => {
