@@ -77,8 +77,9 @@ const ChatWindow = ({ messages, children, className }: ChatWindowProps) => {
 
         {messages.length === 0 && (
           <>
-            <Expand delay={0.7} type="spring">
-              <DonationMessage />
+        // 移除support
+            {/* <Expand delay={0.7} type="spring">
+              <DonationMessage /> */}
             </Expand>
             <Expand delay={0.8} type="spring">
               <ChatMessage
@@ -243,8 +244,8 @@ const ChatMessage = ({ message }: { message: Message }) => {
     </div>
   );
 };
-const DonationMessage = () => {
-  const router = useRouter();
+// const DonationMessage = () => {
+ // const router = useRouter();
 
   // return (
   //   <div className="mx-2 my-1 flex flex-col gap-2 rounded-lg border-[2px] border-white/10 bg-blue-500/20 p-1 font-mono hover:border-[#1E88E5]/40 sm:mx-4 sm:flex-row sm:p-3 sm:text-center sm:text-base">
@@ -265,7 +266,7 @@ const DonationMessage = () => {
   //     </div>
   //   </div>
   // );
-};
+// };
 
 const getMessageIcon = (message: Message) => {
   switch (message.type) {
