@@ -76,7 +76,7 @@ const ChatWindow = ({ messages, children, className }: ChatWindowProps) => {
         {children}
 
         {messages.length === 0 && (
-          <>
+          
         // 移除support
             {/* <Expand delay={0.7} type="spring">
               <DonationMessage /> */}
